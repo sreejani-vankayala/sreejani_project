@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sreejani_app *.css
+recursive-include sreejani_app *.csv
+recursive-include sreejani_app *.html
+recursive-include sreejani_app *.ico
+recursive-include sreejani_app *.js
+recursive-include sreejani_app *.json
+recursive-include sreejani_app *.md
+recursive-include sreejani_app *.png
+recursive-include sreejani_app *.py
+recursive-include sreejani_app *.svg
+recursive-include sreejani_app *.txt
+recursive-exclude sreejani_app *.pyc
