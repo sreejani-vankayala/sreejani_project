@@ -10,19 +10,22 @@
  "engine": "InnoDB",
  "field_order": [
   "contact_number",
-  "address",
+  "route",
+  "column_break_xptx5",
   "is_published",
-  "route"
+  "address"
  ],
  "fields": [
   {
    "fieldname": "contact_number",
    "fieldtype": "Data",
-   "label": "Contact Number"
+   "in_list_view": 1,
+   "label": "Contact Number",
+   "reqd": 1
   },
   {
    "fieldname": "address",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "label": "Address"
   },
   {
@@ -35,13 +38,17 @@
    "fieldname": "route",
    "fieldtype": "Data",
    "label": "Route"
+  },
+  {
+   "fieldname": "column_break_xptx5",
+   "fieldtype": "Column Break"
   }
  ],
  "has_web_view": 1,
  "index_web_pages_for_search": 1,
  "is_published_field": "is_published",
  "links": [],
- "modified": "2023-08-29 08:43:51.327116",
+ "modified": "2023-08-29 09:30:42.154239",
  "modified_by": "Administrator",
  "module": "Sreejani App",
  "name": "Clinic",
