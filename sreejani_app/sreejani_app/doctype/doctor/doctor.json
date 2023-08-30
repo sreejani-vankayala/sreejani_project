@@ -1,7 +1,6 @@
 {
  "actions": [],
- "allow_rename": 1,
- "autoname": "field:full_name",
+ "autoname": "autoincrement",
  "creation": "2023-08-29 11:03:19.699406",
  "default_view": "List",
  "doctype": "DocType",
@@ -9,9 +8,10 @@
  "engine": "InnoDB",
  "field_order": [
   "first_name",
-  "last_name",
   "full_name",
   "qualifications",
+  "column_break_xsfef",
+  "last_name",
   "speciality"
  ],
  "fields": [
@@ -44,15 +44,19 @@
    "in_list_view": 1,
    "label": "Speciality",
    "reqd": 1
+  },
+  {
+   "fieldname": "column_break_xsfef",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-29 11:03:19.699406",
+ "modified": "2023-08-30 09:28:05.424836",
  "modified_by": "Administrator",
  "module": "Sreejani App",
  "name": "Doctor",
- "naming_rule": "By fieldname",
+ "naming_rule": "Autoincrement",
  "owner": "Administrator",
  "permissions": [
   {
@@ -68,7 +72,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "full_name"
 }
